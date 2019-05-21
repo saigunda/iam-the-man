@@ -1,0 +1,2 @@
+fetch means - it will  fetch the new changes but it can not merge contents into your file.
+you need to do merge then you can use the changes
