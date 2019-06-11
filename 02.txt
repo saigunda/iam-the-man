@@ -1,0 +1,52 @@
+pipeline {
+    agent none
+	
+	stages{
+	    stage( 'codecheckout'){
+            agent { label 'master'}
+            steps {
+                script{
+                    sh "echo hello "
+                }
+            }
+        }
+		stages{
+	    stage( 'build'){
+            agent { label 'master'}
+            steps {
+                script{
+                    sh "echo hello "
+                }
+            }
+        }
+		stages{
+	    stage( 'test'){
+            agent { label 'master'}
+            steps {
+                script{
+                    sh "echo hello "
+                }
+            }
+        }stages{
+	    stage( 'deploy'){
+            agent { label 'master'}
+            steps {
+                script{
+                    sh "echo hello "
+                }
+            }
+        }
+		stages{
+	    stage( 'realese'){
+            agent { label 'master'}
+            steps {
+                script{
+                    sh "echo hello "
+                }
+            }
+        }
+	}
+}	
+		
+		
+	
